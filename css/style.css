@@ -3,8 +3,11 @@
     width:100%;
     margin: 0;
     padding: 0;
+
+    font-family: 'Roboto', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body{
     background-color: rgba(117, 105, 105, 1);
@@ -17,8 +20,9 @@ nav{
     align-items: center;
 }
 
-nav p{
+nav h1{
     color:white;
+    position: relative;
 }
 
 .hamburger{
@@ -40,21 +44,19 @@ nav p{
     flex-direction: column;
     justify-content: space-around;
     height: 92vh;
-    width:100vw;
     background:black;
     position: absolute;
     top: -92vh;
+
+    list-style: none;
+    text-align:center;
 }
 
 .nav-active{
-    transform:translateY(100vh)
+    transform:translateY(100vh);
 }
 
-.nav-link{
-    list-style: none;
-    text-align:center;
 
-}
 
 .nav-link a{
     text-decoration: none;
@@ -65,28 +67,94 @@ nav p{
 
 #background_img{
     height: 35vh;
-    width: 100vW;
-
     background-image: url("/img/background.jpg");
     background-position: center;
 }
+#section1{
+    height: 40vh;
+    width: 94vw;   
+    background-color: white;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+
+    display: flex;
+    align-items: center;
+}
 #article1{
-    height: 20vh;
+    margin:10px;
+}
+#article1 p{
+    margin-top:1vh;
+}
+#article1_img{
+    height: 16vh;
+    width:40vw;
+    margin:4vw;
+}
+
+
+#section2{
+    height: 40vh;
     width: 94vw;   
     background-color: white;
     margin-top: 3vh;
     margin-left: 3vw;
     margin-right: 3vw;
+
+    display: flex;
+    align-items: center;
 }
 
-#article2{
-    height: 20vh;
-    width: 94vw;   
-    background-color: white;
-    margin-top: 3vh;
-    margin-left: 3vw;
-    margin-right: 3vw;
+#article2 p{
+    margin-top:1vh;
+}
+
+#article2_img{
+    height: 16vh;
+    width:40vw;
+    margin:4vw;
 }
 
 
+@media screen and (min-width: 800px){
+    nav{
+        height: 10vh;
+        justify-content: center;
+        align-content: flex-start;
+    }
 
+    nav h1{
+        color:white;
+        text-align: center;
+        font-weight: normal;
+        font-size: 1.8rem;
+
+        top:-1.8vh;
+    }
+    .nav-link{
+        flex-direction: row;
+        height: 20px;
+        top:5.5vh;
+        left:0px;
+        background-color: transparent;
+    }
+
+    .hamburger{
+        display:none;
+    }
+    
+
+    #article1_img{
+        height: 30vh;
+        width:40vw;
+        margin:4vw;
+    }
+
+
+    #article2_img{
+        height: 30vh;
+        width:40vw;
+        margin:4vw;
+    }
+}
