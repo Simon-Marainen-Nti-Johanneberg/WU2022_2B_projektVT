@@ -12,7 +12,7 @@
 body{
     background-color: rgba(117, 105, 105, 1);
 }
-nav{
+.nav{
     height: 8vh;
     background-color: black;
     display:flex;
@@ -20,11 +20,13 @@ nav{
     align-items: center;
 }
 
-nav h1{
+.nav h1{
     color:white;
     position: relative;
 }
-
+.nav-active{
+    position: fixed;
+}
 .hamburger{
     margin-right: 3.125rem;
     cursor: pointer;
@@ -52,8 +54,9 @@ nav h1{
     text-align:center;
 }
 
-.nav-active{
+.nav-link-active{
     transform:translateY(100vh);
+    position: fixed;
 }
 
 
