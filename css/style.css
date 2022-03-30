@@ -102,9 +102,10 @@ body{
     width: 94vw;   
     background-color: white;
     margin-top: 3vh;
+    margin-bottom: 3vh;
     margin-left: 3vw;
     margin-right: 3vw;
-
+    
     display: flex;
     align-items: center;
 }
@@ -119,10 +120,21 @@ body{
     margin:4vw;
 }
 
+footer{
+    height: 6vh;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    color:white;
+    text-align: center;
+}
 
 @media screen and (min-width: 800px){
     nav{
-        height: 10vh;
+        height: 12vh;
         justify-content: center;
         align-content: flex-start;
     }
@@ -138,7 +150,7 @@ body{
     .nav-link{
         flex-direction: row;
         height: 20px;
-        top:5.5vh;
+        top:4.3vh;
         left:0px;
         background-color: transparent;
     }
