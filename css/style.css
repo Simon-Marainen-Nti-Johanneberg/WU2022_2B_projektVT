@@ -121,6 +121,7 @@ body{
 }
 
 footer{
+    bottom: 0;
     height: 6vh;
     background-color: rgb(65, 65, 65);
     display: flex;
@@ -132,7 +133,80 @@ footer a{
     text-align: center;
 }
 
+#programText{
+    font-size: 2.5rem;
+    text-align: center;
+    color:white;
+    /*margin-top: 1vh;  fuckar nav vid click fixar sedan*/ 
+}
+
+
+
+
+
+#section1Schema{
+    height: 20vh;
+    width: 94vw;   
+    background-image:url("/img/Schema_article1_img.png") ;
+    background-size:cover;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color:white;
+
+    display: flex;
+}
+
+#Schemaarticle1{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    width:56vw;
+}
+#Schemaarticle1 p{
+    font-size: 0.55rem;
+    margin:0.2vh;
+}
+.blackBackground{
+    height: 14vh;
+    width: 60vw;
+    background-color: RGBA(0, 0, 0, 0.5);
+
+    margin-left: 8vw;
+    margin-top: 3vh;
+    
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+#Schemaarticle2{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    width:56vw;
+}
+
+#Schemaarticle2 p{
+    font-size: 0.55rem;
+    margin:0.2vh;
+}
+
+
+#section2Schema{
+    height: 20vh;
+    width: 94vw;   
+    background-image:url("/img/Schema_article2_img.png") ;
+    background-size:cover;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color:white;
+    display: flex;
+}
+
 @media screen and (min-width: 800px){
+    
     nav{
         height: 12vh;
         justify-content: center;
@@ -158,7 +232,6 @@ footer a{
     .hamburger{
         display:none;
     }
-    
 
     #article1_img{
         height: 30vh;
@@ -172,4 +245,45 @@ footer a{
         width:40vw;
         margin:4vw;
     }
+
+    #section1Schema{
+        width: 40vw;
+        height: 35vh;
+        display: inline-block;
+
+        margin-top: 4vh;
+        margin-left: 8vw;
+        margin-right: 0vw;
+    }
+    #section2Schema{
+        width:40vw;
+        height: 35vh;
+        display: inline-block;
+
+        margin-top: 4vh;
+        margin-left: 4vw;
+        margin-right: 0vw;
+    }
+
+    .blackBackground{
+        width: 35vw;
+        height: 25vh;
+        
+        margin-left:2vw;
+        margin-top: 5vh;
+    }
+    #Schemaarticle1{
+        width:25vw;
+    }
+    #Schemaarticle1 p{
+        font-size: 0.9rem;
+    }
+
+    #Schemaarticle2{
+        width:25vw;
+    }
+    #Schemaarticle2 p{
+        font-size: 0.9rem;
+    }
+
 }
