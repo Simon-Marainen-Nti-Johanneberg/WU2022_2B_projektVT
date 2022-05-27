@@ -214,7 +214,7 @@ footer a{
     margin-top: 3vh;
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-bottom: 35.2vh;
+    margin-bottom: 2vh;
 
 
     color:white;
@@ -247,6 +247,7 @@ footer a{
     height: 30vh;
 
     margin-top: 6vh;
+    margin-left: 2vw;
 
     display: flex;
     flex-direction: column;
@@ -268,6 +269,7 @@ footer a{
     height: 30vh;
 
     margin-top: 6vh;
+    margin-left: 2vw;
 
     display: flex;
     flex-direction: column;
@@ -289,6 +291,7 @@ footer a{
     color: white;
     font-size: 2.2rem;
     margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 #hitta{
@@ -326,6 +329,49 @@ footer a{
     margin-bottom: 10vh;
 }
 
+#schemaInformation{
+    color:white;
+    width: 40vh;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#schemaForslag{
+    color:white;
+    width: 40vh;
+    height: vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+#forslag{
+    width: 50vw;
+    height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7vh;
+}
+input[type=submit] {
+    background-color:rgb(65, 65, 65);
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+#gruppimg{
+    width:60vw;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2vh;
+}
 @media screen and (min-width: 800px){
     
     nav{
@@ -384,7 +430,7 @@ footer a{
         margin-top: 4vh;
         margin-left: 4vw;
         margin-right: 0vw;
-        margin-bottom: 42.3vh;
+        margin-bottom: 5vh;
 
     }
 
@@ -412,7 +458,7 @@ footer a{
     #genrer{
         flex-direction: row;
         justify-content: space-evenly;
-
+        flex-wrap: wrap;
         margin-bottom: 41.6vh;
     }
 
