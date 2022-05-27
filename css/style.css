@@ -146,7 +146,7 @@ footer a{
     width: 15vw;
 }
 
-#programText{
+#schemaText{
     font-size: 2.5rem;
     text-align: center;
     color:white;
@@ -160,7 +160,7 @@ footer a{
 #section1Schema{
     height: 20vh;
     width: 94vw;   
-    background-image:url("../img/Schema_article1_img.png") ;
+    background-image:url("../img/schema_article1_img.jpg") ;
     background-size:cover;
     margin-top: 3vh;
     margin-left: 3vw;
@@ -209,7 +209,7 @@ footer a{
 #section2Schema{
     height: 20vh;
     width: 94vw;   
-    background-image:url("../img/Schema_article2_img.png") ;
+    background-image:url("../img/schema_article2_img.jpg") ;
     background-size:cover;
     margin-top: 3vh;
     margin-left: 3vw;
